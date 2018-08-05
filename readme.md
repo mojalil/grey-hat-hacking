@@ -17,3 +17,4 @@ Git repository for grey hat hacking talk
 * [Equifax code example](https://spuz.me/blog/zine/3Qu1F4x.html)
 * [python code example](https://github.com/mazen160/struts-pwn)
 * [Apache vunerbility details - CVE-2017-5638](https://nvd.nist.gov/vuln/detail/CVE-2017-5638)
+* [Example with lab and instructions](https://github.com/rapid7/metasploit-framework/issues/8064)
