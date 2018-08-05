@@ -12,3 +12,6 @@ Git repository for grey hat hacking talk
 
 ## Links
 * [How Equifax got hacked](https://www.reddit.com/r/programming/comments/70bntz/how_equifax_got_hacked/)
+* [Equifax code example](https://spuz.me/blog/zine/3Qu1F4x.html)
+* [python code example](https://github.com/mazen160/struts-pwn)
+* [Apache vunerbility details - CVE-2017-5638](https://nvd.nist.gov/vuln/detail/CVE-2017-5638)
