@@ -13,9 +13,12 @@ Download docker image with vunerablility ```docker pull piesecurity/apache-strut
 View docker images ```docker images```
 Run docker image with exposed port ```run piesecurity/apache-struts2-cve-2017-5638:latest -p 8080:8080 ```
 Navigate to server via browser ```http:\\localhost:8080```
+EC@ Example: python exploit.py "http://ec2-13-127-53-72.ap-south-1.compute.amazonaws.com:8080/showcase.action" "ls -l"
 
-# Media
+# Media & Link
 * [zdnet article](https://www.zdnet.com/article/equifax-confirms-apache-struts-flaw-it-failed-to-patch-was-to-blame-for-data-breach/)
 * [Apache vulnerbility](https://securingtomorrow.mcafee.com/mcafee-labs/apache-struts-at-rest-analyzing-remote-code-execution-vulnerability-cve-2017-9805/)
 * [Fortune 100 firms](https://www.zdnet.com/article/critical-security-bug-threatens-fortune-100-companies/)
 * [Data & Stats about the attack](https://www.imperva.com/blog/2017/03/cve-2017-5638-new-remote-code-execution-rce-vulnerability-in-apache-struts-2/)
+* [Demo, Breakdown and Code](https://dzone.com/articles/will-it-pwn-cve-2017-5638-remote-code-execution-in)
+* [Demo 2](https://dzone.com/articles/live-demo-exploiting-apache-struts-vulnerabilities)
