@@ -1,5 +1,5 @@
 # Overview
-
+Setup and demo of equifax hack
 
 # Setup
 * [Apache Struts with CVE-2017-5638 - set up a vulnerable server (Part-I)](https://www.youtube.com/watch?v=gidRh_4xugQ)
