@@ -9,11 +9,22 @@
 * [Install Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository)
 * [Docker tutorial](https://stackify.com/docker-tutorial/)
 
-Download docker image with vunerablility ```docker pull piesecurity/apache-struts2-cve-2017-5638```
-View docker images ```docker images```
-Run docker image with exposed port ```run piesecurity/apache-struts2-cve-2017-5638:latest -p 8080:8080 ```
-Navigate to server via browser ```http:\\localhost:8080```
-EC@ Example: python exploit.py "http://ec2-13-127-53-72.ap-south-1.compute.amazonaws.com:8080/showcase.action" "ls -l"
+
+### Instructions
+* Download docker image with vunerablility ```docker pull piesecurity/apache-struts2-cve-2017-5638```
+* View docker images ```docker images```
+* Run docker image with exposed port ```run piesecurity/apache-struts2-cve-2017-5638:latest -p 8080:8080 ```
+* Navigate to server via browser ```http:\\localhost:8080```
+* EC@ Example: 
+```python exploit.py "http://ec2-13-127-53-72.ap-south-1.compute.amazonaws.com:8080/showcase.action" "ls -l"```
+```python exploit.py "http://ec2-13-127-53-72.ap-south-1.compute.amazonaws.com:8080" "cat /etc/passwd"``` 
+
+* Reading /etc/passwd : https://www.youtube.com/watch?v=UxQ9m3L33a0
+
+* Adding user : https://www.digitalocean.com/community/tutorials/how-to-use-passwd-and-adduser-to-manage-passwords-on-a-linux-vps
+
+* Decrypt passwords online via : http://md5decrypt.net
+* Example hashed password (MD5): 
 
 # Media & Link
 * [zdnet article](https://www.zdnet.com/article/equifax-confirms-apache-struts-flaw-it-failed-to-patch-was-to-blame-for-data-breach/)
